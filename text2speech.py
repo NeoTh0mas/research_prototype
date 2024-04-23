@@ -19,7 +19,7 @@ def text_to_speech(text: str) -> str:
         optimize_streaming_latency="0",
         output_format="mp3_22050_32",
         text=text,
-        model_id="eleven_turbo_v2",  # use `eleven_multilingual_v2` for other languages (higher latency)
+        model_id="eleven_turbo_v2",  # may use `eleven_multilingual_v2` for other languages (higher latency)
         voice_settings=VoiceSettings(
             stability=0.35,
             similarity_boost=0.1,
