@@ -13,7 +13,7 @@ def speech_to_text():
             exit(0)
 
     try:
-        text = recognizer.recognize_google(audio, language="en-US")
+        text = recognizer.recognize_google(audio, language="en-US")  # uses Google speech recognition API with English
         return text
     except:
         exit(0)
