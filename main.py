@@ -25,7 +25,7 @@ assistant = client.beta.assistants.create(
                  "to manage them. Help children cope with their emotions in an effective way, using the emotional "
                  "support strategies. Act so that a child could assosiate you with a friend and someone who could "
                  "always listen and support him. Your ultimate goal is to maintain the children's mental wellbeing.",
-    model="gpt-3.5-turbo-0125"  # the most cost effitient model so far
+    model="gpt-3.5-turbo-0125"  # the most cost efficient model so far
 )
 
 
